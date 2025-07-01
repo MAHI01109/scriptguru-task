@@ -62,8 +62,6 @@ export default function Home() {
             </main>
 
             <AddBoard open={open} setOpen={setOpen} />
-
-
         </div>
     )
 }

@@ -38,7 +38,7 @@ export default function AddTask({ onSubmit, setShowForm }) {
                 >
                     <option value="">Select status</option>
                     <option value="To Do">To Do</option>
-                    <option value="In Progess">In Progess</option>
+                    <option value="In Progress">In Progress</option>
                     <option value="Done">Done</option>
                 </select>
                 {errors.status && <span className="text-red-500 text-sm">{errors.status.message}</span>}
